@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Navbar{
+    background-color: rgba(0,0,0,0.4);
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Navbar h1{
+    margin-left: 20px;
+    color: #44c767;
+    font-family: Megrim;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+    padding: 18px;
+}
+
+@media screen and (orientation: portrait){
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        padding: 18px;
+    }
+}

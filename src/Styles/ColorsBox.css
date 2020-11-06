@@ -1,0 +1,22 @@
+.colors-container{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+
+.inner-div{
+    padding: 5px;
+    color: azure;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 800;
+    text-shadow: 0 0 3px #0000, 0 0 5px #000;
+    margin-top: 10px;
+}
+.inner-div:hover{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}

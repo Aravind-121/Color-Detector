@@ -1,0 +1,8 @@
+.img-container{
+    margin-top: 70px;
+}
+.img-container img{
+    width: 100%;
+    border: 0.5px solid #44c767;
+    border-radius: 6px;
+}
