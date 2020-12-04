@@ -6,7 +6,6 @@ import { createStore, applyMiddleware } from 'redux';
 import ReduxPromise from 'redux-promise';
 import App from './App';
 import reducers from './Reducers';
-import reportWebVitals from './reportWebVitals';
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
@@ -16,5 +15,3 @@ ReactDOM.render(
     </Provider>,
   document.getElementById('root')
 );
-
-reportWebVitals();
